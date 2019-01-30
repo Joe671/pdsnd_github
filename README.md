@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Bikesharing - Udacity Python Course
 
 ### Description
-Describe what your project is about and what it does
+The project is about bikesharing data analysis.
 
 ### Files used
-Include the files used
+It includes the following files:
+bikeshare.py (python script)
+readme.txt (project description)
+.gitignore (to ignore the huge csv data sets)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
