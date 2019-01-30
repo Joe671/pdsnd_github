@@ -13,3 +13,4 @@ readme.txt (project description)
 .gitignore (to ignore the huge csv data sets)
 
 ### Credits
+https://review.udacity.com/#!/rubrics/1379/view
