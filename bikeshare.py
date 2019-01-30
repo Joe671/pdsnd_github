@@ -17,6 +17,8 @@ specific_yes_answers = ['yes','yepp','yay','sure']
 
 def get_filters():
     print('-'*40)
+    print(\n)
+    print(\n)
     print('Hey there! Lets analyze some bikesharing data.\nWe can provide you with data for the following cities:\n-----')
     #showing the cities which can be selected
     for key,value in CITY_DATA.items() :
@@ -85,6 +87,7 @@ def load_data(city, month, day):
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     # extract month and day of week from Start Time to create new columns
+    #improvement number TWO
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     df['starting_hour'] = df['Start Time'].dt.hour
@@ -134,6 +137,7 @@ def time_stats(df):
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
+    #Improvement the Third
     print('-'*40)
     print('\n--Section about The Most Popuar Stations and Trips--\n')
 
