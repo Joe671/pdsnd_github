@@ -13,6 +13,8 @@ specific_yes_answers = ['yes','yepp','yay','sure']
 
 def get_filters():
     print('-'*40)
+    print(\n)
+    print(\n)
     print('Hey there! Lets analyze some bikesharing data.\nWe can provide you with data for the following cities:\n-----')
     #showing the cities which can be selected
     for key,value in CITY_DATA.items() :
