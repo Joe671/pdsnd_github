@@ -9,6 +9,10 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 week_days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 #define several "yes" answers. That is not necessary.
+#I think a additional comment makes no sense right here
+#but because I have to cause a change to this file to add it to my local repo
+#commit it and then push it to my remote fork repo
+#I'm just commenting bullshit right here
 specific_yes_answers = ['yes','yepp','yay','sure']
 
 def get_filters():
